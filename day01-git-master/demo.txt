@@ -1,0 +1,12 @@
+git init //初始化git仓库 
+git add
+git commit -m '描述'
+git status
+git diff //查看文件修改前后的不同
+git reset --hard <commit_id || HEAD^>
+cat <文件名>
+git clone <地址> //可以是本地/局域网/网络地址
+git restore <file> //还原工作区的内容 把文件恢复到上一个版本
+git checkout -- <file name>
+git restore --staged <file> //把文件从暂存区拿回来
+git reset HEAD <file>
